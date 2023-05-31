@@ -1,0 +1,65 @@
+html
+    head
+        link(rel="stylesheet", href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css", crossorigin="anonymous")        
+        script(src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js") 
+        link(rel="stylesheet", href="style/style.css")
+    body
+        .py-5.bg-secondary.text-black
+            .container 
+                h1.text-light Hellow Boostrap! 
+                p.text-light boostrap是個很多人使用的網頁模板，裡面有很多別人寫好的現成css資源，也有用來排版很方便的網格系統。
+                a.btn.btn-link.text-info(href="https://v3.bootcss.com/css/" target="blank") 了解更多(中文說明文件)
+        .container
+            h3.border-bottom.border-2.py-3.my-3 如果可以寫完html就刻完網頁的設計哲學
+            p 當時間很趕/或是原本對設計版面沒什麼概念的時候，就會希望，如果元件都幫我刻好，是不是可以刻完html網頁就做好了呢?
+            img.img-fluid.mx-auto.d-block(src="https://tools.wingzero.tw/assets/upload/1624082287367_0.jpg", alt="boostrap")
+        .container.mt-4
+            h3.border-bottom.border-2.py-3.mt-3 按鈕的大小與調整
+            p 
+                .btn.border 前往報名課程
+                .btn.btn-primary 主要按鈕
+                .btn.btn-danger.btn-lg 連結存在風險
+                .btn.btn-success.btn-sm 下載連結
+            .btn-group.btn-primary
+                .btn.border 設定
+                .btn.border 帳號
+                .btn.border 課程
+                .btn.border 購買資訊
+        .container.mt-4
+            h3.border-bottom.border-2.py-3.mb-3 麵包屑尋覽列
+            ul.breadcrumb
+                li.breadcrumb-item 動態網頁課程
+                li.breadcrumb-item boostrap介紹
+                li.breadcrumb-item.active 第一個範例
+        .container.mt-4
+            h3.border-bottom.border-2.py-3.mb-3 清單練習
+            ul.list-group.list-group-flush
+                li.list-group-item.list-group-item-action.d-flex.justify-content-between list-group 清單
+                    span.badge.bg-primary.ms-auto 裡面的項目 list-group-item 
+                li.list-group-item.disabled dd
+                li.list-group-item.list-group-item-action dd
+                li.list-group-item.list-group-item-action.list-group-item-secondary dd
+                li.list-group-item.list-group-item-action fff
+        .container.mt-4 
+            h3.border-bottom.border-2.py-3.mb-3 表格練習
+            table.table
+                thead
+                    tr  
+                        th 項目
+                        th 優點
+                        th 缺點
+                tbody 
+                    tr 
+                        th 速度
+                        td 可以很快建立網頁
+                        td 建立起來大同小異
+                    tr 
+                        th 樣式
+                        td 基礎視覺不會太離譜
+                        td 想要深入修該需要點基本功
+                    tr 
+                        th 什麼時候合用
+                        td 快速建立產品/沒時間
+                        td 想做動態網頁/獨特設計的時候
+
+        script(src="./script/script.js",) 
